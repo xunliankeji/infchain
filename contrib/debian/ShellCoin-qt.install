@@ -1,0 +1,5 @@
+Infchain-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin80.xpm usr/share/pixmaps
+debian/Infchain-qt.desktop usr/share/applications
+debian/Infchain-qt.protocol usr/share/kde4/services/

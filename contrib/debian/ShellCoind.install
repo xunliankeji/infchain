@@ -1,0 +1,2 @@
+debian/bin/Infchaind usr/bin
+src/Infchaind usr/lib/Infchain
