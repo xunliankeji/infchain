@@ -272,7 +272,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Infchain address");
 
     // Amount
-    int64_t nAmount = AmountFromValue(params[1]);
+    int64_t nAmount = AmountFromValue(params[0], true);
 
     // Wallet comments
     CWalletTx wtx;
